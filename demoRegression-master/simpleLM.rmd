@@ -56,5 +56,14 @@ summary.lm(simp)
    HeadWth has a Adjusted R-Squared of 0.6064, and a Residual Standard Error of 76.41.
 
 
+```{r}
+simp <- lm(WEIGHT~LENGTH,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+   Length has a Adjusted R-Squared of 0.7423, and a Residual Standard Error of 61.83.
+
+
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
