@@ -38,6 +38,13 @@ summary.lm(simp)
    Age has a Adjusted R-Squared of 0.55, and a Residual Standard error of 81.47.
 
 
+```{r}
+simp <- lm(WEIGHT~HEADLEN,data=bears)
+plot(WEIGHT~HEADLEN,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+   HeadLen has a Adjusted R-Squared of 0.69, and a Residual Standard Error of 67.81. 
 
 
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
