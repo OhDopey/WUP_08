@@ -76,3 +76,16 @@ summary.lm(simp)
 
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+   After examining  and sorting all the formulas to finding weight of bear, We viewed every RSE and Adjusted-Rsquared and we can now sort to Worst to Best and Best to Worst.
+   
+   
+  WORST-BEST     RSE           BEST-WORST    Adjusted-Rsquared  
+  1.Chest      33.08           1.Chest        0.93
+  2.Neck       43.91           2.Neck         0.87
+  3.Length     61.83           3.Length       0.74
+  4.HeadLen    67.81           4.HeadLen      0.69
+  5.Headwth    76.41           5.HeadWth      0.61
+  6.Age        81.47           6.Age          0.55
+  
+  
+  As we can see Chest is what comes in first place for either side as Worst to Best and from Best to Worst and from our last place would be Age, the two category that we don't use two type of formulas to find weight of bear and it would be Sex & Month.
