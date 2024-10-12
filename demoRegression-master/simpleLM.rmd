@@ -65,5 +65,14 @@ summary.lm(simp)
    Length has a Adjusted R-Squared of 0.7423, and a Residual Standard Error of 61.83.
 
 
+```{r}
+simp <- lm(WEIGHT~CHEST,data=bears)
+plot(WEIGHT~CHEST,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+   Chest has a Adjusted R-Squared of 0.9262, and a Residual Standard Error of 33.08. As we see our winner in first place is CHEST!
+
+
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
