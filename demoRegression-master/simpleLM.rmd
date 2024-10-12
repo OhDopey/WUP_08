@@ -47,5 +47,14 @@ summary.lm(simp)
    HeadLen has a Adjusted R-Squared of 0.69, and a Residual Standard Error of 67.81. 
 
 
+```{r}
+simp <- lm(WEIGHT~HEADWTH,data=bears)
+plot(WEIGHT~HEADWTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+   HeadWth has a Adjusted R-Squared of 0.6064, and a Residual Standard Error of 76.41.
+
+
 ## Compare all models that predict WEIGHT other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
